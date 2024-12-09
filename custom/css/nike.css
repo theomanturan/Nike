@@ -1,0 +1,178 @@
+.bg-color {
+    background-color: black;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-icons {
+    background-color: black;
+}
+
+.couleur-logo {
+    fill: white;
+}
+
+.size-logo {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.color-icon {
+    color: white;
+}
+
+.color-icon:hover {
+    color: yellow;
+}
+
+.no-bullet {
+    list-style-type: none;
+}
+
+.active {
+    background-color: white !important;
+    color: black !important;
+}
+
+.bg-soldes {
+    background-color: yellow;
+}
+
+.big-picture {
+    border: 20px solid black;
+}
+
+.shoes-height {
+    height: 300px;
+}
+
+.couleur-logo-black {
+    fill: black;
+}
+
+.just-do-it {
+    font-size: 70px;
+    color: yellow;
+}
+
+.gray-scale {
+    filter: grayscale(100%);
+    scale: 80%;
+    transition-duration: 0.5s;
+}
+
+.gray-scale:hover {
+    filter: none;
+    scale: 100%;
+    transition-duration: 0.5s;
+}
+
+.price {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    color: black;
+    transform: rotate(-10deg);
+    box-shadow: 10px 10px black;
+}
+
+.model {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    background-color: yellow;
+    color: black;
+    transform: rotate(10deg);
+    box-shadow: 10px 10px black;
+}
+
+.price-canceled {
+    text-decoration: line-through;
+}
+
+.image-home {
+    background-image: url("../../images/wall.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+.showShoe {
+    display: flex !important;
+}
+
+.hideShoe {
+    display: none !important;
+}
+
+.selectedPaginator {
+        background-color: black !important;
+        color: yellow !important;
+}
+
+.unselectedPaginator {
+    background-color: yellow !important;
+    color: black !important;
+}
+
+@media screen and (max-width: 992px) {
+    .bg-color {
+        background-color: black;
+    }
+
+    .bg-icons {
+        background-color: yellow;
+    }
+
+    .color-icon {
+        color: black;
+    }
+
+    .color-icon:hover {
+        color: gray;
+    }
+
+    .ul-spacer {
+        justify-content: space-around;
+        justify-items: center;
+        width: 100%;
+    }
+
+    .couleur-logo {
+        fill: yellow;
+    }
+
+    .size-logo {
+        width: 200px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .size-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .dropdown-menu {
+        position: relative !important;
+        width: 100%;
+        transform: none !important;
+    }
+
+    .active {
+        background-color: yellow !important;
+        color: black !important;
+    }
+}
